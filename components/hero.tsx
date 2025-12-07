@@ -16,7 +16,7 @@ export function Hero() {
             <div className="space-y-2">
               <p className="text-primary text-sm uppercase tracking-widest font-medium">Hello, I&apos;m</p>
               <h1 className="text-5xl md:text-7xl font-bold text-foreground tracking-tight">Parth Kothawade</h1>
-              <h2 className="text-2xl md:text-3xl text-primary font-medium">Aspiring Data Analyst</h2>
+              <h2 className="text-2xl md:text-3xl text-primary font-medium">Data Analyst</h2>
             </div>
 
             <p className="text-muted-foreground text-lg leading-relaxed max-w-xl">
