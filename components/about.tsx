@@ -17,7 +17,7 @@ export function About() {
           {/* Right Column - Content */}
           <div className="lg:col-span-2 space-y-8">
             <p className="text-muted-foreground text-lg leading-relaxed">
-              I&apos;m an <span className="text-foreground font-medium">Aspiring Data Analyst</span> pursuing B.Tech in
+              I&apos;m an <span className="text-foreground font-medium">Data Analyst</span> pursuing B.Tech in
               Electronics and Communication at <span className="text-primary font-medium">VIT Vellore</span> with a CGPA
               of 8.48. My passion lies at the intersection of data and technology, where I transform complex datasets
               into meaningful stories that drive business decisions.
