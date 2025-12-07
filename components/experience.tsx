@@ -2,18 +2,29 @@ import { Building2, Calendar } from "lucide-react"
 
 const experiences = [
   {
-    title: "Technology & Data Intern",
-    company: "Moodale",
-    companyDesc: "Digital Marketing Firm",
+    title: "GIS Data Intern",
+    company: "Techlive Solutions",
+    companyDesc: "",
     period: "May 2025 - June 2025",
+    location: "Mohali",
     achievements: [
-      "Created and maintained Excel dashboards to track weekly operational KPIs for leadership",
-      "Automated weekly reporting tasks using pivot tables & formulas, reducing manual effort by 40%",
-      "Used SQL queries for data extraction & validation, improving reporting accuracy by ~30%",
-      "Documented process workflows & requirements for smoother internal reporting",
-      "Built simple data quality checks that accelerated error identification in weekly reports",
+      <>
+        Cleaned and organized <strong className="font-semibold text-foreground">100+ spatial and tabular data records</strong>, improving dataset consistency for internal use.
+      </>,
+      <>
+        Supported creation of <strong className="font-semibold text-foreground">10+ basic maps</strong> to help visualize project data and geographic patterns.
+      </>,
+      <>
+        Assisted in validating data entries, reducing small formatting and accuracy issues by <strong className="font-semibold text-foreground">15–20%</strong>.
+      </>,
+      <>
+        Helped prepare and update <strong className="font-semibold text-foreground">weekly project files</strong>, ensuring up-to-date information for team reviews.
+      </>,
+      <>
+        Performed routine data filtering, formatting, and reporting tasks that saved the team <strong className="font-semibold text-foreground">4–5 hours per week</strong>.
+      </>,
     ],
-    skills: ["Excel", "SQL", "KPI Tracking", "Data Validation", "Automation"],
+    skills: ["Data Cleaning", "QGIS/Mapping", "Data Validation", "Reporting", "ETL"],
   },
 ]
 
@@ -47,12 +58,12 @@ export function Experience() {
                       <div className="flex items-center gap-2 text-primary mt-1">
                         <Building2 className="w-4 h-4" />
                         <span className="font-medium">{exp.company}</span>
-                        <span className="text-muted-foreground">• {exp.companyDesc}</span>
+                        {exp.companyDesc && <span className="text-muted-foreground">• {exp.companyDesc}</span>}
                       </div>
                     </div>
                     <div className="flex items-center gap-2 text-muted-foreground text-sm">
                       <Calendar className="w-4 h-4" />
-                      {exp.period}
+                      <span>{exp.period}{exp.location ? `, ${exp.location}` : ""}</span>
                     </div>
                   </div>
 
