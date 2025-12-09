@@ -4,7 +4,7 @@ import Image from "next/image"
 import { Github, Linkedin, Mail, Phone, MapPin, ArrowDown } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-const RESUME_LINK = "https://drive.google.com/file/d/1Tpm6Ks-KTRENh4NDF8JodL1UiCmu-jjA/view?usp=drive_link"
+const RESUME_LINK = "https://drive.google.com/file/d/1thFp249NxJDtR-kOrEdMPpx1x-s0cTjo/view?usp=drive_link"
 
 export function Hero() {
   return (
