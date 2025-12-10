@@ -5,7 +5,7 @@ import Link from "next/link"
 import { Menu, X, Download } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-const RESUME_LINK = "https://drive.google.com/file/d/1thFp249NxJDtR-kOrEdMPpx1x-s0cTjo/view?usp=drive_link"
+const RESUME_LINK = "https://drive.google.com/file/d/1sgjlEPveBE6DbTlV3Wd0Z8l9E0jcwQRG/view?usp=drive_link"
 
 const navItems = [
   { name: "About", href: "#about" },
