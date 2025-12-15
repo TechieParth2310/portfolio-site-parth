@@ -3,10 +3,20 @@ const skillCategories = [
     title: "Programming",
     skills: [
       { name: "Python (Pandas, NumPy)", level: 90 },
-      { name: "SQL", level: 85 },
+      { name: "SQL", level: 90 },
+      { name: "JavaScript/Node.js", level: 75 },
       { name: "C++", level: 70 },
-      { name: "HTML/CSS", level: 65 },
-      { name: "JavaScript", level: 60 },
+      { name: "HTML/CSS", level: 75 },
+    ],
+  },
+  {
+    title: "Backend Development",
+    skills: [
+      { name: "REST API Design", level: 85 },
+      { name: "Database Design & Optimization", level: 88 },
+      { name: "ETL Pipelines", level: 85 },
+      { name: "Query Optimization", level: 85 },
+      { name: "Data Validation & Integrity", level: 82 },
     ],
   },
   {
@@ -20,7 +30,17 @@ const skillCategories = [
     ],
   },
   {
-    title: "Visualization",
+    title: "Databases",
+    skills: [
+      { name: "PostgreSQL", level: 85 },
+      { name: "MySQL", level: 85 },
+      { name: "MongoDB", level: 78 },
+      { name: "SQLite", level: 80 },
+      { name: "Data Modeling", level: 85 },
+    ],
+  },
+  {
+    title: "Visualization & Tools",
     skills: [
       { name: "Excel (Pivot Tables, Dashboards)", level: 90 },
       { name: "Plotly", level: 85 },
@@ -29,18 +49,17 @@ const skillCategories = [
     ],
   },
   {
-    title: "Databases & ML",
+    title: "ML & Analytics",
     skills: [
-      { name: "MySQL", level: 85 },
-      { name: "SQLite", level: 80 },
-      { name: "Query Optimization", level: 75 },
-      { name: "Time-Series Analysis", level: 72 },
-      { name: "Anomaly Detection", level: 70 },
+      { name: "Time-Series Analysis", level: 75 },
+      { name: "Anomaly Detection", level: 72 },
+      { name: "Predictive Modeling", level: 70 },
+      { name: "Statistical Testing", level: 80 },
     ],
   },
 ]
 
-const tools = ["Git", "GitHub", "VS Code", "Postman", "Qoder", "Cursor", "OpenCV"]
+const tools = ["Git", "GitHub", "VS Code", "Postman", "Docker", "Cursor", "Python", "Node.js", "PostgreSQL"]
 
 export function Skills() {
   return (

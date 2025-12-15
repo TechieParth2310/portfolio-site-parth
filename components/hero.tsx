@@ -16,13 +16,11 @@ export function Hero() {
             <div className="space-y-2">
               <p className="text-primary text-sm uppercase tracking-widest font-medium">Hello, I&apos;m</p>
               <h1 className="text-5xl md:text-7xl font-bold text-foreground tracking-tight">Parth Kothawade</h1>
-              <h2 className="text-2xl md:text-3xl text-primary font-medium">Data Analyst</h2>
+              <h2 className="text-2xl md:text-3xl text-primary font-medium">Data Analyst & Backend Developer</h2>
             </div>
 
             <p className="text-muted-foreground text-lg leading-relaxed max-w-xl">
-              I transform raw datasets into actionable insights through statistical analysis, KPI tracking, and
-              visualization. Skilled in building data pipelines and creating automated reporting workflows that drive
-              decision-making.
+              Full-stack professional transforming raw datasets into actionable insights while building robust backend systems. Expertise in data analysis, database design, and creating scalable APIs that power modern applications. Strong in Python, SQL, and building data-driven solutions that drive decision-making.
             </p>
 
             <div className="flex flex-wrap gap-4 text-muted-foreground text-sm">
