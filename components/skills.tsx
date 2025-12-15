@@ -4,7 +4,7 @@ const skillCategories = [
     skills: [
       { name: "Python (Pandas, NumPy)", level: 90 },
       { name: "SQL", level: 90 },
-      { name: "JavaScript/Node.js", level: 75 },
+      { name: "Flask", level: 80 },
       { name: "C++", level: 70 },
       { name: "HTML/CSS", level: 75 },
     ],
@@ -59,7 +59,7 @@ const skillCategories = [
   },
 ]
 
-const tools = ["Git", "GitHub", "VS Code", "Postman", "Docker", "Cursor", "Python", "Node.js", "PostgreSQL"]
+const tools = ["Git", "GitHub", "VS Code", "Postman", "Docker", "Cursor", "Python", "Flask", "PostgreSQL"]
 
 export function Skills() {
   return (

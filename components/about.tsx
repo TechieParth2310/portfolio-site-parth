@@ -24,9 +24,9 @@ export function About() {
             </p>
 
             <p className="text-muted-foreground text-lg leading-relaxed">
-              With hands-on experience in <span className="text-foreground font-medium">Python, SQL, Node.js, and PostgreSQL</span>, I
+              With hands-on experience in <span className="text-foreground font-medium">Python, Flask, SQL, and PostgreSQL</span>, I
               specialize in data cleaning, backend API development, database design, and automation. I&apos;ve built
-              real-time analytics platforms, created ETL workflows, developed robust database schemas, and designed APIs that deliver
+              real-time analytics platforms, created ETL workflows, developed robust database schemas, and designed Flask APIs that deliver
               measurable impact.
             </p>
 
