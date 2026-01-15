@@ -2,7 +2,7 @@ import { Building2, Calendar } from "lucide-react"
 
 const experiences = [
   {
-    title: "GIS Data Intern",
+    title: "Data Intern",
     company: "Techlive Solutions",
     companyDesc: "",
     period: "May 2025 - June 2025",
